@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "KPI Modal 1",
+      "description": "Pellentesque ac pellentesque odio. In nisi ex, viverra vitae faucibus",
+      "kpi": {
+        "id": 2,
+        "href": "api/kpi/2"
+      },
+      "visual": {
+        "id": "2",
+        "href": "api/visuals/2"
+      }
+    },
+    {
+      "id": 2,
+      "name": "KPI Modal 2",
+      "description": "Pellentesque ac pellentesque odio. In nisi ex, viverra vitae faucibus",
+      "kpi": {
+        "id": 1,
+        "href": "api/kpi/1"
+      },
+      "visual": {
+        "id": "1",
+        "href": "api/visuals/1"
+      }
+    },
+    {
+      "id": 3,
+      "name": "KPI Modal 3",
+      "description": "Pellentesque ac pellentesque odio. In nisi ex, viverra vitae faucibus",
+      "kpi": {
+        "id": 3,
+        "href": "api/kpi/3"
+      },
+      "visual": {
+        "id": "1",
+        "href": "api/visuals/1"
+      },
+      "restricted": true
+    },
+    {
+      "id": 4,
+      "name": "KPI Modal 4",
+      "description": "Pellentesque ac pellentesque odio. In nisi ex, viverra vitae faucibus",
+      "kpi": {
+        "id": 1,
+        "href": "api/kpi/1"
+      },
+      "visual": {
+        "id": "3",
+        "href": "api/visuals/3"
+      }
+    }
+  ]
+}

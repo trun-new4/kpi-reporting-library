@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+     "id": 1,
+     "name" : "INTES",
+     "description": "Those ontions are already baked in with this model shoot me an email clear blue water but we need distributers to evengalise the new line to local markets",
+     "layout": {
+       "id": 1,
+       "href": "/api/layouts/1"
+     },
+     "content": {
+      "slot1": [
+        {
+          "id": 1,
+          "href": "/api/kpi-collection/1"
+        }
+      ],
+      "slot2": [
+        {
+          "id": 2,
+          "href": "/api/kpi-collection/2"
+        }
+      ],
+      "slot3": [
+        {
+          "id": 3,
+          "href": "/api/kpi-collection/3"
+        }
+      ]
+     }
+    },
+    {
+      "id": 2,
+      "name" : "Layout Collection 2",
+      "description": "Fusce sed volutpat justo, sit amet semper ante. Nullam tempor elit vehicula sapien sagittis, nec pharetra nunc bibendum",
+      "layout": {
+        "id": 1,
+        "href": "/api/layouts/1"
+      },
+      "content": {
+       "slot1": [
+         {
+           "id": 1,
+           "href": "/api/kpi-collection/1"
+         }
+       ],
+       "slot2": [
+         {
+           "id": 2,
+           "href": "/api/kpi-collection/2"
+         }
+       ],
+       "slot3": [
+         {
+           "id": 3,
+           "href": "/api/kpi-collection/3"
+         }
+       ]
+      }
+     },
+     {
+      "id": 3,
+      "name" : "Layout Collection 3",
+      "description": "Nulla ornare, libero in porta iaculis, lorem libero condimentum nulla, a rhoncus tellus quam eu sapien. Integer consectetur odio nec urna tincidunt feugiat.",
+      "layout": {
+        "id": 1,
+        "href": "/api/layouts/1"
+      },
+      "content": {
+       "slot1": [
+         {
+           "id": 1,
+           "href": "/api/kpi-collection/1"
+         }
+       ],
+       "slot2": [
+         {
+           "id": 2,
+           "href": "/api/kpi-collection/2"
+         }
+       ],
+       "slot3": [
+         {
+           "id": 3,
+           "href": "/api/kpi-collection/3"
+         }
+       ]
+      }
+     }
+  ]
+}

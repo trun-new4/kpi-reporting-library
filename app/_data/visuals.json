@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Line Chart",
+      "description": "Nulla ornare, libero in porta iaculis, lorem libero.",
+      "ref": "LineChart",
+      "preview": "/thumbnails/line.png"
+    },
+    {
+      "id": 2,
+      "name": "Pie Chart",
+      "description": "Nulla ornare, libero in porta iaculis, lorem libero.",
+      "ref": "PieChart",
+      "preview": "/thumbnails/pie.png"
+    },
+    {
+      "id": 3,
+      "name": "Bar Chart",
+      "description": "Nulla ornare, libero in porta iaculis, lorem libero.",
+      "ref": "BarChart",
+      "preview": "/thumbnails/bar.png"
+    }
+  ]
+}

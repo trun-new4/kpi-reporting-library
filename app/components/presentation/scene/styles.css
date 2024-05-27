@@ -1,0 +1,30 @@
+.scene {
+  width: 80%;
+  padding: 0.3rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin: auto;
+  border: 0.1rem solid #d2d1c7;
+  text-align: center;
+  min-height: 90%;
+}
+
+.scene__wrapper {
+  background-color: #F8FAFC;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 0.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.scene__content {
+  width: 40rem;
+}
+
+.page {
+  margin: auto;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}

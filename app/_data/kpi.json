@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Average Length Of Stay",
+      "visuals": [
+        {
+          "name": "Line Chart",
+          "href": "/api/visuals/1",
+          "preview": "/thumbnails/line.png"
+        },
+        {
+          "name": "Bar Chart",
+          "href": "/api/visuals/3",
+          "preview": "/thumbnails/bar.png"
+        }
+      ],
+      "questions": [
+        {
+          "title": "Question 1",
+          "description": "Iaculis, purus ultrices venenatis"
+        },
+        {
+          "title": "Question 2",
+          "description": "Maecenas iaculis, purus ultrices venenatis mollis, augue ex pellentesque quam"
+        },
+        {
+          "title": "Question 3",
+          "description": "Purus ultrices venenatis mollis, augue ex pellentesque quam"
+        },
+        {
+          "title": "Question 4",
+          "description": "Venenatis mollis, augue ex pellentesque quam"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Current Occupancy",
+      "visuals": [
+        {
+          "name": "Pie Chart",
+          "href": "/api/visuals/2",
+          "preview": "/thumbnails/pie.png"
+        }
+      ],
+      "questions": [
+        {
+          "title": "Question 1",
+          "description": "Iaculis, purus ultrices venenatis"
+        },
+        {
+          "title": "Question 2",
+          "description": "Maecenas iaculis, purus ultrices venenatis mollis, augue ex pellentesque quam"
+        },
+        {
+          "title": "Question 3",
+          "description": "Purus ultrices venenatis mollis, augue ex pellentesque quam"
+        },
+        {
+          "title": "Question 4",
+          "description": "Venenatis mollis, augue ex pellentesque quam"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Surgery Waiting Times",
+      "visuals": [
+        {
+          "name": "Bar Chart",
+          "href": "/api/visuals/3",
+          "preview": "/thumbnails/bar.png"
+        },
+        {
+          "name": "Pie Chart",
+          "href": "/api/visuals/2",
+          "preview": "/thumbnails/pie.png"
+        }
+      ],
+      "questions": [
+        {
+          "title": "Question 1",
+          "description": "Iaculis, purus ultrices venenatis"
+        },
+        {
+          "title": "Question 2",
+          "description": "Maecenas iaculis, purus ultrices venenatis mollis, augue ex pellentesque quam"
+        },
+        {
+          "title": "Question 3",
+          "description": "Purus ultrices venenatis mollis, augue ex pellentesque quam"
+        },
+        {
+          "title": "Question 4",
+          "description": "Venenatis mollis, augue ex pellentesque quam"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Average Length Of Stay",
+      "visuals": [
+        {
+          "name": "Line Chart",
+          "href": "/api/visuals/1",
+          "preview": "/thumbnails/line.png"
+        },
+        {
+          "name": "Bar Chart",
+          "href": "/api/visuals/3",
+          "preview": "/thumbnails/bar.png"
+        },
+        {
+          "name": "Pie Chart",
+          "href": "/api/visuals/2",
+          "preview": "/thumbnails/pie.png"
+        }
+      ],
+      "questions": [
+        {
+          "title": "Question 1",
+          "description": "Iaculis, purus ultrices venenatis"
+        },
+        {
+          "title": "Question 2",
+          "description": "Maecenas iaculis, purus ultrices venenatis mollis, augue ex pellentesque quam"
+        },
+        {
+          "title": "Question 3",
+          "description": "Purus ultrices venenatis mollis, augue ex pellentesque quam"
+        },
+        {
+          "title": "Question 4",
+          "description": "Venenatis mollis, augue ex pellentesque quam"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Col1Row2",
+      "thumbnail": "layout1",
+      "slots": 3
+    },
+    {
+      "id": 2,
+      "name": "Col2",
+      "thumbnail": "layout2",
+      "slots": 2
+    },
+    {
+      "id": 3,
+      "name": "Row1Col2",
+      "thumbnail": "layout3",
+      "slots": 3
+    }
+  ]
+}
