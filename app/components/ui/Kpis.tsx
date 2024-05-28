@@ -9,8 +9,8 @@ interface Props {
 export default function Kpis({ items }: Props) {
   return (
     <article className="page">
-      <h2>KPI's</h2>
-      <p>Available KPI's </p>
+      <h2>KPI&apos;s</h2>
+      <p>Available KPI&apos;s </p>
       <div className="cards">
         {items.map((item: KPIApiResponseItem, i): React.ReactNode => {
           return (

@@ -1,6 +1,6 @@
 'use client';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
-import { isServerSide } from './isServerSide';
+import { IsServerSide } from './isServerSide';
 
 interface Props {
   title: string;
@@ -51,7 +51,7 @@ const renderCustomizedLabel = ({
 };
 
 const PieChartComponent = () => {
-  const onServer = isServerSide();
+  const onServer = IsServerSide();
   if (onServer) return null;
   return (
     <div className="chart pieChart">

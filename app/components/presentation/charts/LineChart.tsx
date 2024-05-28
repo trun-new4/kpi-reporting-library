@@ -1,5 +1,5 @@
 'use client';
-import { isServerSide } from './isServerSide';
+import { IsServerSide } from './isServerSide';
 
 import {
   LineChart,
@@ -61,7 +61,7 @@ const data = [
   },
 ];
 const LineChartComponent = () => {
-  const onServer = isServerSide();
+  const onServer = IsServerSide();
   if (onServer) return null;
   return (
     <div className="chart lineChart">

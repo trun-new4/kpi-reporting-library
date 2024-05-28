@@ -13,7 +13,7 @@ export default function KpiCollection({ collection }: Props) {
     <div className="collection">
       {collection.restricted &&
         <div className="collection__restricted text-center">
-          <h3>You don't have access to this KPI. </h3>
+          <h3>You don&pos;t have access to this KPI. </h3>
           <br />
           <button>Request Access</button>
         </div>
