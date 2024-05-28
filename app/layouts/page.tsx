@@ -2,14 +2,14 @@ import Image from 'next/image';
 import LayoutCollections from '../components/ui/LayoutCollections';
 import Layouts from '../components/ui/Layouts';
 async function getLayouts() {
-  const response = await fetch('http://localhost:3000/api/layouts', {
+  const response = await fetch(`${process.env.URL}/api/layouts`, {
     next: { revalidate: 60 },
   });
   return response.json();
 }
 
 async function getLayoutCollections() {
-  const response = await fetch('http://localhost:3000/api/layout-collection', {
+  const response = await fetch(`${process.env.URL}/api/layout-collection`, {
     next: { revalidate: 60 },
   });
   return response.json();

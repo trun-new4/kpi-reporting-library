@@ -12,7 +12,7 @@ import {
 import { VisualsApiResponseItem } from '@interfaces/Visuals.d';
 
 async function getKPI(ref: string): Promise<KPIApiResponseItem> {
-  const response = await fetch(`http://localhost:3000/${ref}`, {
+  const response = await fetch(`${process.env.URL}/${ref}`, {
     next: { revalidate: 60 },
   });
   const data = response.json();
@@ -20,7 +20,7 @@ async function getKPI(ref: string): Promise<KPIApiResponseItem> {
 }
 
 async function getVisual(ref: string): Promise<VisualsApiResponseItem> {
-  const response = await fetch(`http://localhost:3000/${ref}`, {
+  const response = await fetch(`${process.env.URL}/${ref}`, {
     next: { revalidate: 60 },
   });
   const data = response.json();

@@ -10,7 +10,7 @@ import { KPICollectionApiResponseItem } from '@/app/interfaces/KpiCollection';
 import { LayoutApiResponseItem } from '@/app/interfaces/Layout';
 
 async function getLayout(ref: string): Promise<LayoutApiResponseItem> {
-  const response = await fetch(`http://localhost:3000/${ref}`, {
+  const response = await fetch(`${process.env.URL}/${ref}`, {
     next: { revalidate: 60 },
   });
   const data = response.json();
@@ -18,7 +18,7 @@ async function getLayout(ref: string): Promise<LayoutApiResponseItem> {
 }
 
 async function getKPICollection(ref: string): Promise<KPICollectionApiResponseItem> {
-  const response = await fetch(`http://localhost:3000/${ref}`, {
+  const response = await fetch(`${process.env.URL}/${ref}`, {
     next: { revalidate: 60 },
   });
   const data = response.json();

@@ -3,7 +3,7 @@ import LayoutCollection from "@/app/components/ui/LayoutCollection";
 import { LayoutCollectionApiResponseItem } from "@/app/interfaces/LayoutCollection";
 
 async function getLayoutCollection(id: string): Promise<LayoutCollectionApiResponseItem> {
-  const response = await fetch(`http://localhost:3000/api/layout-collection/${id}`, {
+  const response = await fetch(`${process.env.URL}/api/layout-collection/${id}`, {
     next: { revalidate: 60 },
   });
   return response.json();

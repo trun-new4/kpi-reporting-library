@@ -4,14 +4,14 @@ import { KPIApiResponse } from '@interfaces/Kpi.d';
 import Kpis from '../components/ui/Kpis';
 
 async function getKPICollections(): Promise<KPICollectionApiResponse> {
-  const response = await fetch('http://localhost:3000/api/kpi-collection', {
+  const response = await fetch(`${process.env.URL}/api/kpi-collection`, {
     next: { revalidate: 60 },
   });
   return response.json();
 }
 
 async function getKPIs(): Promise<KPIApiResponse> {
-  const response = await fetch('http://localhost:3000/api/kpi', {
+  const response = await fetch(`${process.env.URL}/api/kpi`, {
     next: { revalidate: 60 },
   });
   return response.json();

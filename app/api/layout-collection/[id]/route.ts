@@ -6,7 +6,7 @@ import {
 } from '@/app/interfaces/LayoutCollection';
 
 async function getLayoutCollections(): Promise<LayoutCollectionApiResponse> {
-  const response = await fetch(`http://localhost:3000/api/layout-collection`, {
+  const response = await fetch(`${process.env.URL}/api/layout-collection`, {
     next: { revalidate: 60 },
   });
   const data = response.json();
